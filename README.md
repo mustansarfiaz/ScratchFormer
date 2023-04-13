@@ -19,7 +19,7 @@ Visualization results of MaskFreeVIS
     <td><img src="demo/comparison_on_DSIFN.jpg"></td>
   </tr>
   <tr>
-    <td><img src="vis_demo/comparison_on_Levir.jpg"></td>
+    <td><img src="demo/comparison_on_Levir.jpg"></td>
   </tr>
 </table>
 
