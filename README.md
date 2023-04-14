@@ -32,10 +32,61 @@ Methods
 -----------------
 <img width="1096" alt="image" src="https://github.com/mustansarfiaz/ScratchFormer/blob/main/demo/proposed_framework.jpg">
 
+### Requirements
+```
+Python 3.8.0
+pytorch 1.10.1
+torchvision 0.11.2
+einops  0.3.2
+```
 
+Please see `requirements.txt` for all the other requirements.
 
+### :speech_balloon: Dataset Preparation
+
+### :point_right: Data structure
+
+```
+"""
+Change detection data set with pixel-level binary labels；
+├─A
+├─B
+├─label
+└─list
+"""
+```
+
+`A`: images of t1 phase;
+
+`B`:images of t2 phase;
+
+`label`: label maps;
+
+`list`: contains `train.txt, val.txt and test.txt`, each file records the image names (XXX.png) in the change detection dataset.
+
+### :point_right: Links to download processed datsets used for train/val/test
+
+You can download the processed LEVIR-CD and DSIFN-CD datasets by the DropBox through the following here:
+
+- LEVIR-CD-256: [`click here to download`](https://www.dropbox.com/sh/lnjxpflvgjijwoj/AAAgWr3xgOjqtTWPVpbLVcfNa?dl=0)
+- DSIFN-CD-256: [`click here to download`](https://www.dropbox.com/sh/i54h8kkpgar1s07/AACK5_jLGS3cP9ocgOMEUJcNa?dl=0)
+
+Since the file sizes are large, I recommed to use command line and cosider downloading the zip file as follows (in linux):
+
+To download LEVIR-CD dataset run following command in linux-terminal:
+```cmd
+wget https://www.dropbox.com/s/h9jl2ygznsaeg5d/LEVIR-CD-256.zip
+```
+To download DSIFN-CD dataset run following command in linux-terminal:
+```cmd
+wget https://www.dropbox.com/sh/i54h8kkpgar1s07/AAA0rBAFl9UZ3U3Z1_o46UT0a/DSIFN-CD-256.zip
+```
 
 
 ### Contact
 
 If you have any question, please feel free to contact the authors. Mustansar Fiaz: [mustansar.fiaz@mbzuai.ac.ae](mailto:mustansar.fiaz@mbzuai.ac.ae) or Mubashir Noman: [mubashir.noman@mbzuai.ac.ae](mailto:mubashir.noman@mbzuai.ac.ae).
+
+## References
+Our code is based on [ChangeFormer](https://github.com/wgcban/ChangeFormer) repository. 
+We thank them for releasing their baseline code.
