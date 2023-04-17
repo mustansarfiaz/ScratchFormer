@@ -94,7 +94,7 @@ wget https://www.dropbox.com/sh/i54h8kkpgar1s07/AAA0rBAFl9UZ3U3Z1_o46UT0a/DSIFN-
 ## Citation
 
 ```
-@inproceedings{fiaz2022psarm,
+@inproceedings{noman2023scratchformer,
   title={Remote Sensing Change Detection with Transformers Trained from Scratch},
   author={Noman, Mubashir and Fiaz, Mustansar and Cholakkal, Hisham and Narayan, Sanath and Anwar, Rao Muhammad and Khan, Salman and Khan, Fahad Shahbaz},
   booktitle={arxiv.org/pdf/2304.06710}, 
