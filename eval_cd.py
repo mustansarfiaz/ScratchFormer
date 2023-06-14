@@ -15,7 +15,7 @@ def main():
     # ------------
     parser = ArgumentParser()
     parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
-    parser.add_argument('--project_name', default='scratchformer_cdd', type=str)
+    parser.add_argument('--project_name', default='scratchformer', type=str)
     parser.add_argument('--print_models', default=False, type=bool, help='print models')
     parser.add_argument('--checkpoints_root', default='./checkpoints', type=str)
     parser.add_argument('--vis_root', default='vis', type=str)
