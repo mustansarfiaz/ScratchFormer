@@ -3,7 +3,7 @@
 # Remote Sensing Change Detection With Transformers Trained from Scratch
 This repo contains the official **PyTorch** code for Remote Sensing Change Detection With Transformers Trained from Scratch [[Arxiv]](https://arxiv.org/pdf/2304.06710.pdf). 
 
-**Code will be released soon. Stay tuned!**
+**Code is released!**
 
 Highlights
 -----------------
