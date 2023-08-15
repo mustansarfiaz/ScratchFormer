@@ -20,14 +20,6 @@ Introduction
 -----------------
 Current transformer-based change detection (CD) approaches either employ a pre-trained model trained on large-scale image classification ImageNet dataset or rely on first pre-training on another CD dataset and then fine-tuning on the target benchmark. This current strategy is driven by the fact that transformers typically require a large amount of training data to learn inductive biases, which is insufficient in standard CD datasets due to their small size. We develop an end-to-end CD approach with transformers that is trained from scratch and yet achieves state-of-the-art performance on four benchmarks. Instead of using conventional self-attention that struggles to capture inductive biases when trained from scratch, our architecture utilizes a shuffled sparse-attention operation that focuses on selected sparse informative regions to capture the inherent characteristics of the CD data. Moreover, we introduce a change-enhanced feature fusion (CEFF) module to fuse the features from input image pairs by performing a per-channel re-weighting. Our CEFF module aids in enhancing the relevant semantic changes while suppressing the noisy ones. Extensive experiments on four CD datasets reveal the merits of the proposed contributions, achieving gains as high as 14.27% in intersection-over-union (IoU) score, compared to the best-published results in the literature.
 
-Sota comparison of ScratchFormer
------------------
-
-<table>
-  <tr>
-    <td><img src="demo/Sota_Comparison.JPG"></td>
-  </tr>
-</table>
 
 Visualization results of ScratchFormer
 -----------------
@@ -73,23 +65,6 @@ Change detection data set with pixel-level binary labels；
 
 `list`: contains `train.txt, val.txt and test.txt`, each file records the image names (XXX.png) in the change detection dataset.
 
-### :point_right: Links to download processed datsets used for train/val/test
-
-You can download the processed LEVIR-CD and DSIFN-CD datasets by the DropBox through the following here:
-
-- LEVIR-CD-256: [`click here to download`](https://www.dropbox.com/sh/lnjxpflvgjijwoj/AAAgWr3xgOjqtTWPVpbLVcfNa?dl=0)
-- DSIFN-CD-256: [`click here to download`](https://www.dropbox.com/sh/i54h8kkpgar1s07/AACK5_jLGS3cP9ocgOMEUJcNa?dl=0)
-
-Since the file sizes are large, I recommed to use command line and cosider downloading the zip file as follows (in linux):
-
-To download LEVIR-CD dataset run following command in linux-terminal:
-```cmd
-wget https://www.dropbox.com/s/h9jl2ygznsaeg5d/LEVIR-CD-256.zip
-```
-To download DSIFN-CD dataset run following command in linux-terminal:
-```cmd
-wget https://www.dropbox.com/sh/i54h8kkpgar1s07/AAA0rBAFl9UZ3U3Z1_o46UT0a/DSIFN-CD-256.zip
-```
 
 ## Citation
 
