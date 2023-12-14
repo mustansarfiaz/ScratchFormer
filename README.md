@@ -84,3 +84,6 @@ If you have any question, please feel free to contact the authors. Mustansar Fia
 ## References
 Our code is based on [ChangeFormer](https://github.com/wgcban/ChangeFormer) repository. 
 We thank them for releasing their baseline code.
+
+
+* **ScratchFormer**: "Remote Sensing Change Detection with Transformers Trained from Scratch", Arxiv, 2023 (*MBZUAI*). [[Paper](https://arxiv.org/pdf/2304.06710.pdf)][[PyTorch](https://github.com/mustansarfiaz/ScratchFormer)]
