@@ -1,7 +1,7 @@
 # ScratchFormer
 
-# Remote Sensing Change Detection With Transformers Trained from Scratch
-This repo contains the official **PyTorch** code for Remote Sensing Change Detection With Transformers Trained from Scratch [[Arxiv]](https://arxiv.org/pdf/2304.06710.pdf). 
+# Remote Sensing Change Detection With Transformers Trained from Scratch (TGRS)
+This repo contains the official **PyTorch** code for Remote Sensing Change Detection With Transformers Trained from Scratch [[Arxiv]](https://arxiv.org/pdf/2304.06710.pdf) [[TGRS]](https://ieeexplore.ieee.org/document/10489990). 
 
 **Code is released!**
 
@@ -71,9 +71,9 @@ Change detection data set with pixel-level binary labels；
 ```
 @inproceedings{noman2023scratchformer,
   title={Remote Sensing Change Detection with Transformers Trained from Scratch},
-  author={Noman, Mubashir and Fiaz, Mustansar and Cholakkal, Hisham and Narayan, Sanath and Anwar, Rao Muhammad and Khan, Salman and Khan, Fahad Shahbaz},
-  journal={arXiv preprint arXiv:2304.06710}, 
-  year={2022}
+  author={Noman, Mubashir and Fiaz, Mustansar and Cholakkal, Hisham and Narayan, Sanath and Anwer, Rao Muhammad and Khan, Salman and Khan, Fahad Shahbaz},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024}
 }
 ```
 
@@ -86,4 +86,4 @@ Our code is based on [ChangeFormer](https://github.com/wgcban/ChangeFormer) repo
 We thank them for releasing their baseline code.
 
 
-* **ScratchFormer**: "Remote Sensing Change Detection with Transformers Trained from Scratch", Arxiv, 2023 (*MBZUAI*). [[Paper](https://arxiv.org/pdf/2304.06710.pdf)][[PyTorch](https://github.com/mustansarfiaz/ScratchFormer)]
+* **ScratchFormer**: "Remote Sensing Change Detection with Transformers Trained from Scratch", TGRS, 2024 (*MBZUAI*). [[Paper](https://arxiv.org/pdf/2304.06710.pdf)][[PyTorch](https://github.com/mustansarfiaz/ScratchFormer)]
